@@ -1,0 +1,48 @@
+p{
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 7pt;
+  color: #C1C9C9;
+  background-color: #BEC079;
+  line-height: 2em;
+}
+#cuerpo div{
+  font-family:Calibri;
+  font-style: italic;
+  color:#324EED;
+  font-size: 9pt;
+  background-color: #4D8365;
+  line-height: 0.60rem;
+  width: 600px;
+  height: 200px;
+}
+
+@media(min-width:450px){
+  #cuerpo div{
+    font-size: 10pt;
+  }
+}
+
+@media(min-width:475px){
+  p{
+    font-size: 8pt;
+  }
+}
+
+@media(min-width:900px){
+  #cuerpo div{
+    font-size: 11pt;
+  }
+}
+
+@media(min-width:950px){
+  p{
+    font-size: 9pt;
+  }
+}
+
+@media(min-width:1335px){
+  p{
+    font-size: 10pt;
+  }
+}
