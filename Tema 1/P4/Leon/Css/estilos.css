@@ -1,0 +1,22 @@
+body{
+  font-family: "Vivaldi";
+  color:#0B08BD;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10pt;
+  background-image:url("../../imagenes/convento san marcos.jpg");
+  background-repeat: repeat-y;
+}
+
+@media(min-width:475px){
+  body{
+    font-size:12pt;
+  }
+}
+
+@media(min-width:950px){
+  body{
+    font-size:14pt;
+  }
+}

@@ -1,0 +1,32 @@
+[class^="cristiano"]{
+   color:orange;
+   font-family: "Calibri";
+  }
+
+[class*="ciudad"]{
+  font-size: 13pt;
+  text-decoration: underline;
+ }
+
+ [class$="mudejar"]{
+   color: blue;
+   font-style: italic;
+ }
+
+ div[id]{
+   font-family: "Calibri";
+   color:brown;
+   font-size:14pt;
+ }
+
+ [class*="al"]{
+    font-family: "Arial";
+    font-size:10pt;
+    color:green;
+   }
+
+   [class^="ven"]{
+      color:rgb(156, 41, 222);
+      font-family: "Cambria";
+      font-style: italic;
+     }
