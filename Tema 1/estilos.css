@@ -1,0 +1,58 @@
+#divHeader{
+	background-color:#938f8e;
+	padding:10px;
+}
+
+#pHeader{
+	text-align: center;
+}
+
+#divNav{
+	background-color:#eecb67;
+}
+
+#pNav{
+	text-align:center;
+}
+
+#divMain{
+	float:left;
+	background-color: #FFC300 ;
+	padding:50px;
+	width: 35%;
+	text-align: center;
+}
+
+#div2Main{
+	background-color:#FF0304;
+	padding:50px;
+	text-align: center;
+}
+
+#div3Main{
+	background-color:#67eee8;
+	padding:50px;
+	text-align: center;
+}
+
+#divFooter{
+	background-color:#eecb67;
+	padding:0.05px;
+	text-align: center;
+}
+
+#divLeftSide{
+	float:left;
+	background-color: #938f8e ;
+	width: 8%;
+	height: 350px;
+	text-align: center;
+}
+
+#divRightSide{
+	float:right;
+	background-color: #938f8e ;
+	width: 8%;
+	height: 350px;
+	text-align: center;
+}
