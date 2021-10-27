@@ -1,0 +1,40 @@
+div#monumentos>div[id]{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  border: 3px solid orange;
+}
+
+div#monumentos>div[id]>div{
+  width: 30%;
+  border:solid red;
+}
+
+div#giralda{
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+div#catedral{
+  align-self: flex-end;
+  justify-content: center;
+}
+
+div#catedral >:nth-child(2), div#catedral >:nth-child(3){
+  flex-shrink: 2;
+}
+
+div#catedral >:nth-child(1), div#catedral >:nth-child(4){
+  flex-shrink: 1;
+}
+
+div#detcatedral{
+  align-self: baseline;
+  justify-content: space-between;
+}
+
+div#retcatedral{
+  align-self:auto;
+  justify-content: space-around;
+}
